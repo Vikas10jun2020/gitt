@@ -12,6 +12,7 @@ const App = () => {
       onChange={connectionState => {
         console.log('Connection State: ', connectionState);
       }}>
+      <Text>Thi</Text>
       <WebView url={constant.WEBSITE_URL} />
     </InternetConnectionAlert>
   );
